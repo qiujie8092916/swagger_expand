@@ -3,8 +3,8 @@ A Tampermonkey script for persisting column width of gantt of Redmine
 
 English | [简体中文](./README-zh_CN.md)
 
-## usaged
+## Usaged
 Replace @match [https:\/\/*\/**\/issues\/gantt*] to your own domain
 
-## compatibility
+## Compatibility
 Redmine@5.1.x
