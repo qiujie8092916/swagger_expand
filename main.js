@@ -5,7 +5,6 @@
 // @description  持久化 redmine issues gantt 表格列宽
 // @author       Jie.Q
 // @match        https://*/**/issues/gantt*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=xjjj.co
 // @grant GM_setValue
 // @grant GM_getValue
 // @grant GM_deleteValue
