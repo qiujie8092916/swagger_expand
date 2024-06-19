@@ -55,22 +55,22 @@
 
         const tds = table.querySelectorAll('tbody > tr > td');
 
-        for (const id in persist_width) {
-            if (persist_width.hasOwnProperty(id)) {
-                const width = persist_width[id];
+        for (const sign in persist_width) {
+            if (persist_width.hasOwnProperty(sign)) {
+                const width = persist_width[sign];
 
                 // 兼容特殊的主列没有 id
-                if (id === MAIN_CLASS) {
-                    const item = [...tds].find(it => it.classList.contains(id));
+                if (sign === MAIN_CLASS) {
+                    const item = [...tds].find(it => it.classList.contains(sign));
 
-                    if (item && isNumber(persist_width[id])) {
-                        wrapperWidth(item, persist_width[id], true);
+                    if (item && isNumber(persist_width[sign])) {
+                        wrapperWidth(item, persist_width[sign], true);
                     }
                 } else {
-                    const item = [...tds].find(it => it.id === id);
+                    const item = [...tds].find(it => it.id === sign);
 
-                    if (item && isNumber(persist_width[id])) {
-                        wrapperWidth(item, persist_width[id]);
+                    if (item && isNumber(persist_width[sign])) {
+                        wrapperWidth(item, persist_width[sign]);
                     }
                 }
             }
