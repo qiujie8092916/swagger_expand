@@ -1,5 +1,5 @@
 # redmine-gantt
-一个 Tampermonkey 脚本，用于持久化Redmine的gantt的列宽度
+一个 Tampermonkey 脚本，用于持久化 Redmine 甘特图表格的列宽度
 
 [English](./README.md) | 简体中文
 
