@@ -9,6 +9,7 @@
 // @grant GM_getValue
 // @grant GM_deleteValue
 // @grant GM_log
+// @license MIT
 // ==/UserScript==
 
 (function() {
