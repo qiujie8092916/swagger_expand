@@ -1,15 +1,17 @@
 // ==UserScript==
-// @name         persisting column width of gantt of Redmine
-// @name:zh-CN   持久化 redmine 甘特图的表格列宽
-// @namespace    https://github.com/qiujie8092916
-// @version      2024-06-18
-// @author       Jie.Q
-// @match        https://*/**/issues/gantt*
-// @grant GM_setValue
-// @grant GM_getValue
-// @grant GM_deleteValue
-// @grant GM_log
-// @license MIT
+// @name                 persisting column width of gantt of Redmine
+// @name:zh-CN           持久化 redmine 甘特图的表格列宽
+// @namespace            https://github.com/qiujie8092916
+// @version              2024-06-18
+// @author               Jie.Q
+// @description          A Tampermonkey script to persist column width of gantt of Redmine and restore the previously set column width after the page loads
+// @description:zh-CN    一个 Tampermonkey 脚本，用于持久化 Redmine 甘特图表格的列宽度，并在页面加载后恢复之前设置的列宽
+// @match                https://*/**/issues/gantt*
+// @grant                GM_setValue
+// @grant                GM_getValue
+// @grant                GM_deleteValue
+// @grant                GM_log
+// @license              MIT
 // ==/UserScript==
 
 (function() {
