@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         persisting column width of gantt of Redmine
-// @name:zh      持久化 redmine 甘特图的表格列宽
+// @name:zh-CN      持久化 redmine 甘特图的表格列宽
 // @namespace    https://github.com/qiujie8092916
 // @version      2024-06-18
 // @author       Jie.Q
