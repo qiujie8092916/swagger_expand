@@ -3,9 +3,9 @@
 
 [English](./README.md) | 简体中文
 
-## usaged
+## 使用
 将 @match \[https:\/\/*\/**\/issues\/gantt*\] 替换为你自己的域名
 
-## compatibility
+## 兼容性
 Redmine@5.1.x
 
